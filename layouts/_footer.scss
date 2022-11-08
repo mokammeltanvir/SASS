@@ -79,3 +79,63 @@ $button:(primary, blue),(success, green),
     text-decoration: none;
   }
 }
+
+$text_upper: uppercase;
+$text_lower: lowercase;
+$text_capital: capitalize;
+
+@mixin test($val: none) {
+  background-color: tomato;
+  font-style: 20px;
+
+  @if ($val == uppercase) {
+    text-transform: $text_upper;
+    color: red;
+    
+  }@else if($val == capital)
+  {
+    text-transform: $text_capital;
+    color: green;
+  }
+  @else if($val == $text_lower)
+  {
+    text-transform: lowercase;
+    color: blue;
+  }
+  @else{
+    text-transform: $val;
+    color: #333;
+  }
+}
+.box{
+  @include test(uppercase)
+}
+.box-2 {
+  @include test(lowercase)
+}
+.box-n{
+  @include test()
+}
+
+@mixin radius($size, $circle1:false, $circle2: false, $circle3: false) {
+  width: $size;
+  height: $size;
+  @if ($circle1 == true) {
+    border-radius: $size/2;
+  }@else if($circle2 == true){
+  border-radius: $size/5;
+}@else if($circle3== true)
+{
+  border-radius: $size/10;
+}@else{
+  border-radius: 0;
+}
+
+  
+}
+.image{
+@include radius(100px, $circle3:true)
+}
+.image-2{
+  @include radius(150px, $circle2:true)
+}
