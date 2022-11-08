@@ -17,16 +17,16 @@ body {
   margin: 100px auto;
 }
 
-@mixin button {
-      background-color: $button_back;
-        color: #fff;
-        padding: 10px 30px;
-        text-decoration: none;
-        text-transform: capitalize;
-        &:hover {
-            background-color: $hover;
-          }
-}
+// @mixin button {
+//       background-color: $button_back;
+//         color: #fff;
+//         padding: 10px 30px;
+//         text-decoration: none;
+//         text-transform: capitalize;
+//         &:hover {
+//             background-color: $hover;
+//           }
+// }
 @mixin title {
   font-size: 26px;
     text-transform: uppercase;
@@ -39,4 +39,30 @@ body {
   border-color: $border_color;
   border-radius: $border_radius;
 
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .3s;
+}
+.btn-green{
+  @extend .btn;
+  background-color: green;
+  color: #fff;
+  &:hover{
+    background-color: red;
+  }
+}
+.btn-red{
+  @extend .btn;
+    background-color: red;
+    color: #fff;
+  
+    &:hover {
+      background-color: green;
+    }
 }

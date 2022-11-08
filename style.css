@@ -13,6 +13,31 @@ body {
   margin: 100px auto;
 }
 
+.btn, .btn-red, .btn-green {
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-green {
+  background-color: green;
+  color: #fff;
+}
+.btn-green:hover {
+  background-color: red;
+}
+
+.btn-red {
+  background-color: red;
+  color: #fff;
+}
+.btn-red:hover {
+  background-color: green;
+}
+
 .header {
   overflow: hidden;
   background-color: tomato;
@@ -78,16 +103,6 @@ body {
   margin: 12px 0;
   line-height: 24px;
 }
-.services .single-service a {
-  background-color: blue;
-  color: #fff;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.services .single-service a:hover {
-  background-color: red;
-}
 
 .about {
   margin: 20px 0;
@@ -105,16 +120,6 @@ body {
 .about p {
   margin: 20px 0;
   line-height: 20px;
-}
-.about a {
-  background-color: blue;
-  color: #fff;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.about a:hover {
-  background-color: red;
 }
 
 .footer {
