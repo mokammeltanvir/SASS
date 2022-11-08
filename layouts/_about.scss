@@ -1,0 +1,17 @@
+.about{
+  margin: 20px 0;
+  padding: 20px;
+  @include border(7px, dotted, tomato, 20px);
+  h4{
+    @include title;
+
+  }
+  p{
+    margin: 20px 0;
+    line-height: 20px;
+
+  }
+  a{
+    @include button;
+  }
+}

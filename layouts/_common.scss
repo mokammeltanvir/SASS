@@ -1,0 +1,42 @@
+$button_back: blue;
+$hover: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+@mixin button {
+      background-color: $button_back;
+        color: #fff;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-transform: capitalize;
+        &:hover {
+            background-color: $hover;
+          }
+}
+@mixin title {
+  font-size: 26px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+@mixin border($border_width, $border_style, $border_color, $border_radius) {
+  border-width: $border_width;
+  border-style: $border_style;
+  border-color: $border_color;
+  border-radius: $border_radius;
+
+}

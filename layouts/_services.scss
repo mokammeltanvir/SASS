@@ -1,0 +1,32 @@
+.services {
+  overflow: hidden;
+
+  .single-service {
+    float: left;
+    width: 320px;
+    background-color: #fff;
+    text-align: center;
+    margin: 30px 0;
+    padding: 30px;
+    margin-right: 20px;
+    @include border(5px,
+      dashed,
+      red,
+      12px);
+    &:last-child{
+      margin-right: 0;
+    }
+
+    h4 {
+      @include title;
+    }
+
+    p {
+      margin: 12px 0;
+      line-height: 24px;
+    }
+    a{
+      @include button;
+    }
+  }
+}
