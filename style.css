@@ -130,4 +130,248 @@ body {
 }
 .footer p {
   color: #fff;
+}
+
+.box-1 {
+  width: 100px;
+}
+
+.box-2 {
+  width: 200px;
+}
+
+.box-3 {
+  width: 300px;
+}
+
+.box-4 {
+  width: 400px;
+}
+
+.box-5 {
+  width: 500px;
+}
+
+.box-6 {
+  width: 600px;
+}
+
+.box-7 {
+  width: 700px;
+}
+
+.box-8 {
+  width: 800px;
+}
+
+.box-9 {
+  width: 900px;
+}
+
+.box-10 {
+  width: 1000px;
+}
+
+.box-11 {
+  width: 1100px;
+}
+
+.box-12 {
+  width: 1200px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: blue;
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-success {
+  background-color: green;
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: lightblue;
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

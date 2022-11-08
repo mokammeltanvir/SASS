@@ -23,3 +23,59 @@
 //     -,
 //     and / can be used to concatenate strings.
 // }
+
+@for $i from 1 through 12 {
+  .box-#{$i}{
+    width: 100px * $i;
+  }
+  
+}
+@for $i from 1 through 10 {
+  .pt-#{$i *10} {
+      padding-top: $i * 10px;
+  }
+    .pb-#{$i *10} {
+      padding-bottom: $i * 10px;
+    }
+}
+@for $i from 1 through 10 {
+  .mt-#{$i * 5}
+  {
+    margin-top: $i *5px ;
+  }
+}
+
+@each $i in (uppercase, lowercase, capitalize) {
+  .text-#{$i}{
+  text-transform: $i;
+}
+}
+$list: left, right, center, justify;
+@each $i in $list{
+  .text-#{$i} {
+    text-align: $i;
+  }
+}
+
+$map:(h1, 50px, 60px, 900),(h2, 40px, 50px, 800),(h3,30px,40px,700),(p,16px,24px,400);
+
+@each $name, $font_size, $line_height, $font_weight in $map {
+  #{$name}{
+    font-size: $font_size;
+    line-height: $line_height;
+    font-weight: $font_weight;
+  }
+}
+
+$button:(primary, blue),(success, green),
+(info, lightblue);
+
+@each $name, $color in $button {
+  .btn-#{$name}{
+    background-color: $color;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}
