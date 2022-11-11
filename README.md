@@ -15,4 +15,4 @@ This is for Sass learning and practice project.
 - @for directive
 - @while directive
 - Function
-- [Project](https://github.com/)
+- [Project-Sass](https://github.com/mokammeltanvir/Basic-Sass-Project)
